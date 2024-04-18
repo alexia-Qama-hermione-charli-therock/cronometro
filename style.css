@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+
+BODY {
+  background: #AAAAAA;
+}
+
+#stopwatch {
+  margin:auto;
+  box-sizing: border-box;
+  border:1px solid black;
+  width:152px;
+  height: 50px;
+  border-radius:5px;
+  padding:10px 10px;
+  text-align:center;
+  font-size: 22pt;
+  font-family: 'Iceland', cursive;
+  background: #EEEEEE;
+  color: #33FF33;
+  text-shadow:  0 0 3px #33FF33;
+  background-image: radial-gradient(circle at center center, rgb(34,34,34),rgb(0,0,0));
+}
+
+.stopwatch {
+  margin: auto;
+  text-align: center;
+}
+
+button {
+  margin: 8px 1px;
+  cursor: pointer;
+}
